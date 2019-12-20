@@ -27,7 +27,7 @@ function compareTriplets(a, b) {
     var i =0;
     var alice =0;
     var bob =0;
-    a.forEach(eleelemnt => (function(a1,b1){
+    a.forEach(() => (function(a1,b1){
         if (a1[i] > b1[i]){ 
             alice +=1;
         }else if (a1[i] < b1[i]){
